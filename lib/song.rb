@@ -39,7 +39,7 @@ class Song
   end
 
   def self.find_or_create_by_name(name)
-    binding.pru
+    binding.pry
     self.all.find_by_name(name) != false ? self.all.find_by_name(name) : self.all.create_by_name(name)
   end
 
