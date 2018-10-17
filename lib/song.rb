@@ -36,4 +36,8 @@ class Song
     result != "" ? result : false
   end
 
+  def self.find_or_create_by_name(name)
+    name.find_by_name != false ? name.find_by_name : name.create_by_name
+  end  
+
 end
