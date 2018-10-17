@@ -30,4 +30,6 @@ class Song
 
   def self.find_by_name
 
+  emd
+
 end
