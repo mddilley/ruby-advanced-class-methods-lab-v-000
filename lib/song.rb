@@ -33,7 +33,7 @@ class Song
     @@all.each do |song|
       result = song if song.name == name
     end
-    result
+    result != "" ? result : false
   end
 
 end
